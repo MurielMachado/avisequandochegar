@@ -1,0 +1,35 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+}
+
+#onde {
+  width: 411px;
+  height: 368.5px;
+  margin: auto;
+  animation: aviseQuando ease-in-out infinite alternate 10s;
+}
+
+  @keyframes aviseQuando {
+    @for $i from 1 through 300 {
+      $s: ($i * 100) / 300 + "%";
+    $page: url("frames/"+$i+".png");
+    #{$s} {
+      background: no-repeat center/100% $page;
+    }
+  }
+}
+
+// @keyframes aviseQuando {
+//   0% {
+//     background: no-repeat center/100% url("frames/1.png");
+//   }
+//   50% {
+//     background: no-repeat center/100% url("frames/150.png");
+//   }
+//   100% {
+//     background: no-repeat center/100% url("frames/300.png");
+//   }
+// }

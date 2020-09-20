@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
   html, body{
     height: 100%;
     width: 100%;
@@ -7,23 +7,26 @@
   }
 
   #onde {
-    /* background: no-repeat center/100% url("frames/1.png"); */
     width: 411px;
     height: 368.5px;
     margin: auto;
+    animation: aviseQuando ease-in-out infinite alternate 1s;
+    --last-page: 300;
   }
 
-  .fade-in {
-    animation: fadeIn ease infinite alternate 10s;
-  }
-
-  @keyframes fadeIn {
+  @keyframes aviseQuando {
     0% {
       background: no-repeat center/100% url("frames/1.png");
+    }
+    50% {
+      background: no-repeat center/100% url("frames/150.png");
     }
     100% {
       background: no-repeat center/100% url("frames/300.png");
     }
   }
-</style>
-<div id=onde class=fade-in></div>
+</style> -->
+
+<link rel="stylesheet" type="text/css" href="dist/anima.css">
+
+<div id=onde></div>
