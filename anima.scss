@@ -6,11 +6,17 @@ body {
   display: flex;
 }
 
-#onde {
+#onde, #onde::after {
   width: 414px;
   height: 370px;
   margin: auto;
   animation: aviseQuando linear infinite alternate 300s;
+}
+
+#onde::after {
+  content: '';
+  display: block;
+  animation-delay: 1s;
 }
 
 @keyframes aviseQuando {
