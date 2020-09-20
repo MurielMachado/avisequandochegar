@@ -10,23 +10,21 @@ body {
   width: 414px;
   height: 370px;
   margin: auto;
-  animation: aviseQuando linear infinite alternate 300s;
+  animation: aviseQuando steps(305) infinite alternate 30s;
+  animation-delay: 1s;
+  background: no-repeat center/100% url("frames/1.png")
 }
 
 #onde::after {
   content: '';
   display: block;
-  animation-delay: 1s;
+  animation-delay: 1.1s;
 }
 
 @keyframes aviseQuando {
-  0%{
-    background: no-repeat center/100% url("frames/1.png")
-  }
-
-  @for $i from 1 through 300 {
-    $s: ($i * 100) / 300 + "%";
-    $page: url("frames/"+$i+".png");
+  @for $i from 1 through 305 {
+    $s: ($i * 100) / 305 + "%";
+    $page: url("frames/"+min($i,300)+".png");
 
     #{$s} {
       background: no-repeat center/100% $page;

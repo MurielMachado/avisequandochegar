@@ -10,915 +10,929 @@ body {
   width: 414px;
   height: 370px;
   margin: auto;
-  animation: aviseQuando linear infinite alternate 300s;
+  animation: aviseQuando steps(305) infinite alternate 30s;
+  animation-delay: 1s;
+  background: no-repeat center/100% url("frames/1.png");
 }
 
 #onde::after {
   content: "";
   display: block;
-  animation-delay: 1s;
+  animation-delay: 1.1s;
 }
 
 @keyframes aviseQuando {
-  0% {
+  0.3278688525% {
     background: no-repeat center/100% url("frames/1.png");
   }
-  0.3333333333% {
-    background: no-repeat center/100% url("frames/1.png");
-  }
-  0.6666666667% {
+  0.6557377049% {
     background: no-repeat center/100% url("frames/2.png");
   }
-  1% {
+  0.9836065574% {
     background: no-repeat center/100% url("frames/3.png");
   }
-  1.3333333333% {
+  1.3114754098% {
     background: no-repeat center/100% url("frames/4.png");
   }
-  1.6666666667% {
+  1.6393442623% {
     background: no-repeat center/100% url("frames/5.png");
   }
-  2% {
+  1.9672131148% {
     background: no-repeat center/100% url("frames/6.png");
   }
-  2.3333333333% {
+  2.2950819672% {
     background: no-repeat center/100% url("frames/7.png");
   }
-  2.6666666667% {
+  2.6229508197% {
     background: no-repeat center/100% url("frames/8.png");
   }
-  3% {
+  2.9508196721% {
     background: no-repeat center/100% url("frames/9.png");
   }
-  3.3333333333% {
+  3.2786885246% {
     background: no-repeat center/100% url("frames/10.png");
   }
-  3.6666666667% {
+  3.606557377% {
     background: no-repeat center/100% url("frames/11.png");
   }
-  4% {
+  3.9344262295% {
     background: no-repeat center/100% url("frames/12.png");
   }
-  4.3333333333% {
+  4.262295082% {
     background: no-repeat center/100% url("frames/13.png");
   }
-  4.6666666667% {
+  4.5901639344% {
     background: no-repeat center/100% url("frames/14.png");
   }
-  5% {
+  4.9180327869% {
     background: no-repeat center/100% url("frames/15.png");
   }
-  5.3333333333% {
+  5.2459016393% {
     background: no-repeat center/100% url("frames/16.png");
   }
-  5.6666666667% {
+  5.5737704918% {
     background: no-repeat center/100% url("frames/17.png");
   }
-  6% {
+  5.9016393443% {
     background: no-repeat center/100% url("frames/18.png");
   }
-  6.3333333333% {
+  6.2295081967% {
     background: no-repeat center/100% url("frames/19.png");
   }
-  6.6666666667% {
+  6.5573770492% {
     background: no-repeat center/100% url("frames/20.png");
   }
-  7% {
+  6.8852459016% {
     background: no-repeat center/100% url("frames/21.png");
   }
-  7.3333333333% {
+  7.2131147541% {
     background: no-repeat center/100% url("frames/22.png");
   }
-  7.6666666667% {
+  7.5409836066% {
     background: no-repeat center/100% url("frames/23.png");
   }
-  8% {
+  7.868852459% {
     background: no-repeat center/100% url("frames/24.png");
   }
-  8.3333333333% {
+  8.1967213115% {
     background: no-repeat center/100% url("frames/25.png");
   }
-  8.6666666667% {
+  8.5245901639% {
     background: no-repeat center/100% url("frames/26.png");
   }
-  9% {
+  8.8524590164% {
     background: no-repeat center/100% url("frames/27.png");
   }
-  9.3333333333% {
+  9.1803278689% {
     background: no-repeat center/100% url("frames/28.png");
   }
-  9.6666666667% {
+  9.5081967213% {
     background: no-repeat center/100% url("frames/29.png");
   }
-  10% {
+  9.8360655738% {
     background: no-repeat center/100% url("frames/30.png");
   }
-  10.3333333333% {
+  10.1639344262% {
     background: no-repeat center/100% url("frames/31.png");
   }
-  10.6666666667% {
+  10.4918032787% {
     background: no-repeat center/100% url("frames/32.png");
   }
-  11% {
+  10.8196721311% {
     background: no-repeat center/100% url("frames/33.png");
   }
-  11.3333333333% {
+  11.1475409836% {
     background: no-repeat center/100% url("frames/34.png");
   }
-  11.6666666667% {
+  11.4754098361% {
     background: no-repeat center/100% url("frames/35.png");
   }
-  12% {
+  11.8032786885% {
     background: no-repeat center/100% url("frames/36.png");
   }
-  12.3333333333% {
+  12.131147541% {
     background: no-repeat center/100% url("frames/37.png");
   }
-  12.6666666667% {
+  12.4590163934% {
     background: no-repeat center/100% url("frames/38.png");
   }
-  13% {
+  12.7868852459% {
     background: no-repeat center/100% url("frames/39.png");
   }
-  13.3333333333% {
+  13.1147540984% {
     background: no-repeat center/100% url("frames/40.png");
   }
-  13.6666666667% {
+  13.4426229508% {
     background: no-repeat center/100% url("frames/41.png");
   }
-  14% {
+  13.7704918033% {
     background: no-repeat center/100% url("frames/42.png");
   }
-  14.3333333333% {
+  14.0983606557% {
     background: no-repeat center/100% url("frames/43.png");
   }
-  14.6666666667% {
+  14.4262295082% {
     background: no-repeat center/100% url("frames/44.png");
   }
-  15% {
+  14.7540983607% {
     background: no-repeat center/100% url("frames/45.png");
   }
-  15.3333333333% {
+  15.0819672131% {
     background: no-repeat center/100% url("frames/46.png");
   }
-  15.6666666667% {
+  15.4098360656% {
     background: no-repeat center/100% url("frames/47.png");
   }
-  16% {
+  15.737704918% {
     background: no-repeat center/100% url("frames/48.png");
   }
-  16.3333333333% {
+  16.0655737705% {
     background: no-repeat center/100% url("frames/49.png");
   }
-  16.6666666667% {
+  16.393442623% {
     background: no-repeat center/100% url("frames/50.png");
   }
-  17% {
+  16.7213114754% {
     background: no-repeat center/100% url("frames/51.png");
   }
-  17.3333333333% {
+  17.0491803279% {
     background: no-repeat center/100% url("frames/52.png");
   }
-  17.6666666667% {
+  17.3770491803% {
     background: no-repeat center/100% url("frames/53.png");
   }
-  18% {
+  17.7049180328% {
     background: no-repeat center/100% url("frames/54.png");
   }
-  18.3333333333% {
+  18.0327868852% {
     background: no-repeat center/100% url("frames/55.png");
   }
-  18.6666666667% {
+  18.3606557377% {
     background: no-repeat center/100% url("frames/56.png");
   }
-  19% {
+  18.6885245902% {
     background: no-repeat center/100% url("frames/57.png");
   }
-  19.3333333333% {
+  19.0163934426% {
     background: no-repeat center/100% url("frames/58.png");
   }
-  19.6666666667% {
+  19.3442622951% {
     background: no-repeat center/100% url("frames/59.png");
   }
-  20% {
+  19.6721311475% {
     background: no-repeat center/100% url("frames/60.png");
   }
-  20.3333333333% {
+  20% {
     background: no-repeat center/100% url("frames/61.png");
   }
-  20.6666666667% {
+  20.3278688525% {
     background: no-repeat center/100% url("frames/62.png");
   }
-  21% {
+  20.6557377049% {
     background: no-repeat center/100% url("frames/63.png");
   }
-  21.3333333333% {
+  20.9836065574% {
     background: no-repeat center/100% url("frames/64.png");
   }
-  21.6666666667% {
+  21.3114754098% {
     background: no-repeat center/100% url("frames/65.png");
   }
-  22% {
+  21.6393442623% {
     background: no-repeat center/100% url("frames/66.png");
   }
-  22.3333333333% {
+  21.9672131148% {
     background: no-repeat center/100% url("frames/67.png");
   }
-  22.6666666667% {
+  22.2950819672% {
     background: no-repeat center/100% url("frames/68.png");
   }
-  23% {
+  22.6229508197% {
     background: no-repeat center/100% url("frames/69.png");
   }
-  23.3333333333% {
+  22.9508196721% {
     background: no-repeat center/100% url("frames/70.png");
   }
-  23.6666666667% {
+  23.2786885246% {
     background: no-repeat center/100% url("frames/71.png");
   }
-  24% {
+  23.606557377% {
     background: no-repeat center/100% url("frames/72.png");
   }
-  24.3333333333% {
+  23.9344262295% {
     background: no-repeat center/100% url("frames/73.png");
   }
-  24.6666666667% {
+  24.262295082% {
     background: no-repeat center/100% url("frames/74.png");
   }
-  25% {
+  24.5901639344% {
     background: no-repeat center/100% url("frames/75.png");
   }
-  25.3333333333% {
+  24.9180327869% {
     background: no-repeat center/100% url("frames/76.png");
   }
-  25.6666666667% {
+  25.2459016393% {
     background: no-repeat center/100% url("frames/77.png");
   }
-  26% {
+  25.5737704918% {
     background: no-repeat center/100% url("frames/78.png");
   }
-  26.3333333333% {
+  25.9016393443% {
     background: no-repeat center/100% url("frames/79.png");
   }
-  26.6666666667% {
+  26.2295081967% {
     background: no-repeat center/100% url("frames/80.png");
   }
-  27% {
+  26.5573770492% {
     background: no-repeat center/100% url("frames/81.png");
   }
-  27.3333333333% {
+  26.8852459016% {
     background: no-repeat center/100% url("frames/82.png");
   }
-  27.6666666667% {
+  27.2131147541% {
     background: no-repeat center/100% url("frames/83.png");
   }
-  28% {
+  27.5409836066% {
     background: no-repeat center/100% url("frames/84.png");
   }
-  28.3333333333% {
+  27.868852459% {
     background: no-repeat center/100% url("frames/85.png");
   }
-  28.6666666667% {
+  28.1967213115% {
     background: no-repeat center/100% url("frames/86.png");
   }
-  29% {
+  28.5245901639% {
     background: no-repeat center/100% url("frames/87.png");
   }
-  29.3333333333% {
+  28.8524590164% {
     background: no-repeat center/100% url("frames/88.png");
   }
-  29.6666666667% {
+  29.1803278689% {
     background: no-repeat center/100% url("frames/89.png");
   }
-  30% {
+  29.5081967213% {
     background: no-repeat center/100% url("frames/90.png");
   }
-  30.3333333333% {
+  29.8360655738% {
     background: no-repeat center/100% url("frames/91.png");
   }
-  30.6666666667% {
+  30.1639344262% {
     background: no-repeat center/100% url("frames/92.png");
   }
-  31% {
+  30.4918032787% {
     background: no-repeat center/100% url("frames/93.png");
   }
-  31.3333333333% {
+  30.8196721311% {
     background: no-repeat center/100% url("frames/94.png");
   }
-  31.6666666667% {
+  31.1475409836% {
     background: no-repeat center/100% url("frames/95.png");
   }
-  32% {
+  31.4754098361% {
     background: no-repeat center/100% url("frames/96.png");
   }
-  32.3333333333% {
+  31.8032786885% {
     background: no-repeat center/100% url("frames/97.png");
   }
-  32.6666666667% {
+  32.131147541% {
     background: no-repeat center/100% url("frames/98.png");
   }
-  33% {
+  32.4590163934% {
     background: no-repeat center/100% url("frames/99.png");
   }
-  33.3333333333% {
+  32.7868852459% {
     background: no-repeat center/100% url("frames/100.png");
   }
-  33.6666666667% {
+  33.1147540984% {
     background: no-repeat center/100% url("frames/101.png");
   }
-  34% {
+  33.4426229508% {
     background: no-repeat center/100% url("frames/102.png");
   }
-  34.3333333333% {
+  33.7704918033% {
     background: no-repeat center/100% url("frames/103.png");
   }
-  34.6666666667% {
+  34.0983606557% {
     background: no-repeat center/100% url("frames/104.png");
   }
-  35% {
+  34.4262295082% {
     background: no-repeat center/100% url("frames/105.png");
   }
-  35.3333333333% {
+  34.7540983607% {
     background: no-repeat center/100% url("frames/106.png");
   }
-  35.6666666667% {
+  35.0819672131% {
     background: no-repeat center/100% url("frames/107.png");
   }
-  36% {
+  35.4098360656% {
     background: no-repeat center/100% url("frames/108.png");
   }
-  36.3333333333% {
+  35.737704918% {
     background: no-repeat center/100% url("frames/109.png");
   }
-  36.6666666667% {
+  36.0655737705% {
     background: no-repeat center/100% url("frames/110.png");
   }
-  37% {
+  36.393442623% {
     background: no-repeat center/100% url("frames/111.png");
   }
-  37.3333333333% {
+  36.7213114754% {
     background: no-repeat center/100% url("frames/112.png");
   }
-  37.6666666667% {
+  37.0491803279% {
     background: no-repeat center/100% url("frames/113.png");
   }
-  38% {
+  37.3770491803% {
     background: no-repeat center/100% url("frames/114.png");
   }
-  38.3333333333% {
+  37.7049180328% {
     background: no-repeat center/100% url("frames/115.png");
   }
-  38.6666666667% {
+  38.0327868852% {
     background: no-repeat center/100% url("frames/116.png");
   }
-  39% {
+  38.3606557377% {
     background: no-repeat center/100% url("frames/117.png");
   }
-  39.3333333333% {
+  38.6885245902% {
     background: no-repeat center/100% url("frames/118.png");
   }
-  39.6666666667% {
+  39.0163934426% {
     background: no-repeat center/100% url("frames/119.png");
   }
-  40% {
+  39.3442622951% {
     background: no-repeat center/100% url("frames/120.png");
   }
-  40.3333333333% {
+  39.6721311475% {
     background: no-repeat center/100% url("frames/121.png");
   }
-  40.6666666667% {
+  40% {
     background: no-repeat center/100% url("frames/122.png");
   }
-  41% {
+  40.3278688525% {
     background: no-repeat center/100% url("frames/123.png");
   }
-  41.3333333333% {
+  40.6557377049% {
     background: no-repeat center/100% url("frames/124.png");
   }
-  41.6666666667% {
+  40.9836065574% {
     background: no-repeat center/100% url("frames/125.png");
   }
-  42% {
+  41.3114754098% {
     background: no-repeat center/100% url("frames/126.png");
   }
-  42.3333333333% {
+  41.6393442623% {
     background: no-repeat center/100% url("frames/127.png");
   }
-  42.6666666667% {
+  41.9672131148% {
     background: no-repeat center/100% url("frames/128.png");
   }
-  43% {
+  42.2950819672% {
     background: no-repeat center/100% url("frames/129.png");
   }
-  43.3333333333% {
+  42.6229508197% {
     background: no-repeat center/100% url("frames/130.png");
   }
-  43.6666666667% {
+  42.9508196721% {
     background: no-repeat center/100% url("frames/131.png");
   }
-  44% {
+  43.2786885246% {
     background: no-repeat center/100% url("frames/132.png");
   }
-  44.3333333333% {
+  43.606557377% {
     background: no-repeat center/100% url("frames/133.png");
   }
-  44.6666666667% {
+  43.9344262295% {
     background: no-repeat center/100% url("frames/134.png");
   }
-  45% {
+  44.262295082% {
     background: no-repeat center/100% url("frames/135.png");
   }
-  45.3333333333% {
+  44.5901639344% {
     background: no-repeat center/100% url("frames/136.png");
   }
-  45.6666666667% {
+  44.9180327869% {
     background: no-repeat center/100% url("frames/137.png");
   }
-  46% {
+  45.2459016393% {
     background: no-repeat center/100% url("frames/138.png");
   }
-  46.3333333333% {
+  45.5737704918% {
     background: no-repeat center/100% url("frames/139.png");
   }
-  46.6666666667% {
+  45.9016393443% {
     background: no-repeat center/100% url("frames/140.png");
   }
-  47% {
+  46.2295081967% {
     background: no-repeat center/100% url("frames/141.png");
   }
-  47.3333333333% {
+  46.5573770492% {
     background: no-repeat center/100% url("frames/142.png");
   }
-  47.6666666667% {
+  46.8852459016% {
     background: no-repeat center/100% url("frames/143.png");
   }
-  48% {
+  47.2131147541% {
     background: no-repeat center/100% url("frames/144.png");
   }
-  48.3333333333% {
+  47.5409836066% {
     background: no-repeat center/100% url("frames/145.png");
   }
-  48.6666666667% {
+  47.868852459% {
     background: no-repeat center/100% url("frames/146.png");
   }
-  49% {
+  48.1967213115% {
     background: no-repeat center/100% url("frames/147.png");
   }
-  49.3333333333% {
+  48.5245901639% {
     background: no-repeat center/100% url("frames/148.png");
   }
-  49.6666666667% {
+  48.8524590164% {
     background: no-repeat center/100% url("frames/149.png");
   }
-  50% {
+  49.1803278689% {
     background: no-repeat center/100% url("frames/150.png");
   }
-  50.3333333333% {
+  49.5081967213% {
     background: no-repeat center/100% url("frames/151.png");
   }
-  50.6666666667% {
+  49.8360655738% {
     background: no-repeat center/100% url("frames/152.png");
   }
-  51% {
+  50.1639344262% {
     background: no-repeat center/100% url("frames/153.png");
   }
-  51.3333333333% {
+  50.4918032787% {
     background: no-repeat center/100% url("frames/154.png");
   }
-  51.6666666667% {
+  50.8196721311% {
     background: no-repeat center/100% url("frames/155.png");
   }
-  52% {
+  51.1475409836% {
     background: no-repeat center/100% url("frames/156.png");
   }
-  52.3333333333% {
+  51.4754098361% {
     background: no-repeat center/100% url("frames/157.png");
   }
-  52.6666666667% {
+  51.8032786885% {
     background: no-repeat center/100% url("frames/158.png");
   }
-  53% {
+  52.131147541% {
     background: no-repeat center/100% url("frames/159.png");
   }
-  53.3333333333% {
+  52.4590163934% {
     background: no-repeat center/100% url("frames/160.png");
   }
-  53.6666666667% {
+  52.7868852459% {
     background: no-repeat center/100% url("frames/161.png");
   }
-  54% {
+  53.1147540984% {
     background: no-repeat center/100% url("frames/162.png");
   }
-  54.3333333333% {
+  53.4426229508% {
     background: no-repeat center/100% url("frames/163.png");
   }
-  54.6666666667% {
+  53.7704918033% {
     background: no-repeat center/100% url("frames/164.png");
   }
-  55% {
+  54.0983606557% {
     background: no-repeat center/100% url("frames/165.png");
   }
-  55.3333333333% {
+  54.4262295082% {
     background: no-repeat center/100% url("frames/166.png");
   }
-  55.6666666667% {
+  54.7540983607% {
     background: no-repeat center/100% url("frames/167.png");
   }
-  56% {
+  55.0819672131% {
     background: no-repeat center/100% url("frames/168.png");
   }
-  56.3333333333% {
+  55.4098360656% {
     background: no-repeat center/100% url("frames/169.png");
   }
-  56.6666666667% {
+  55.737704918% {
     background: no-repeat center/100% url("frames/170.png");
   }
-  57% {
+  56.0655737705% {
     background: no-repeat center/100% url("frames/171.png");
   }
-  57.3333333333% {
+  56.393442623% {
     background: no-repeat center/100% url("frames/172.png");
   }
-  57.6666666667% {
+  56.7213114754% {
     background: no-repeat center/100% url("frames/173.png");
   }
-  58% {
+  57.0491803279% {
     background: no-repeat center/100% url("frames/174.png");
   }
-  58.3333333333% {
+  57.3770491803% {
     background: no-repeat center/100% url("frames/175.png");
   }
-  58.6666666667% {
+  57.7049180328% {
     background: no-repeat center/100% url("frames/176.png");
   }
-  59% {
+  58.0327868852% {
     background: no-repeat center/100% url("frames/177.png");
   }
-  59.3333333333% {
+  58.3606557377% {
     background: no-repeat center/100% url("frames/178.png");
   }
-  59.6666666667% {
+  58.6885245902% {
     background: no-repeat center/100% url("frames/179.png");
   }
-  60% {
+  59.0163934426% {
     background: no-repeat center/100% url("frames/180.png");
   }
-  60.3333333333% {
+  59.3442622951% {
     background: no-repeat center/100% url("frames/181.png");
   }
-  60.6666666667% {
+  59.6721311475% {
     background: no-repeat center/100% url("frames/182.png");
   }
-  61% {
+  60% {
     background: no-repeat center/100% url("frames/183.png");
   }
-  61.3333333333% {
+  60.3278688525% {
     background: no-repeat center/100% url("frames/184.png");
   }
-  61.6666666667% {
+  60.6557377049% {
     background: no-repeat center/100% url("frames/185.png");
   }
-  62% {
+  60.9836065574% {
     background: no-repeat center/100% url("frames/186.png");
   }
-  62.3333333333% {
+  61.3114754098% {
     background: no-repeat center/100% url("frames/187.png");
   }
-  62.6666666667% {
+  61.6393442623% {
     background: no-repeat center/100% url("frames/188.png");
   }
-  63% {
+  61.9672131148% {
     background: no-repeat center/100% url("frames/189.png");
   }
-  63.3333333333% {
+  62.2950819672% {
     background: no-repeat center/100% url("frames/190.png");
   }
-  63.6666666667% {
+  62.6229508197% {
     background: no-repeat center/100% url("frames/191.png");
   }
-  64% {
+  62.9508196721% {
     background: no-repeat center/100% url("frames/192.png");
   }
-  64.3333333333% {
+  63.2786885246% {
     background: no-repeat center/100% url("frames/193.png");
   }
-  64.6666666667% {
+  63.606557377% {
     background: no-repeat center/100% url("frames/194.png");
   }
-  65% {
+  63.9344262295% {
     background: no-repeat center/100% url("frames/195.png");
   }
-  65.3333333333% {
+  64.262295082% {
     background: no-repeat center/100% url("frames/196.png");
   }
-  65.6666666667% {
+  64.5901639344% {
     background: no-repeat center/100% url("frames/197.png");
   }
-  66% {
+  64.9180327869% {
     background: no-repeat center/100% url("frames/198.png");
   }
-  66.3333333333% {
+  65.2459016393% {
     background: no-repeat center/100% url("frames/199.png");
   }
-  66.6666666667% {
+  65.5737704918% {
     background: no-repeat center/100% url("frames/200.png");
   }
-  67% {
+  65.9016393443% {
     background: no-repeat center/100% url("frames/201.png");
   }
-  67.3333333333% {
+  66.2295081967% {
     background: no-repeat center/100% url("frames/202.png");
   }
-  67.6666666667% {
+  66.5573770492% {
     background: no-repeat center/100% url("frames/203.png");
   }
-  68% {
+  66.8852459016% {
     background: no-repeat center/100% url("frames/204.png");
   }
-  68.3333333333% {
+  67.2131147541% {
     background: no-repeat center/100% url("frames/205.png");
   }
-  68.6666666667% {
+  67.5409836066% {
     background: no-repeat center/100% url("frames/206.png");
   }
-  69% {
+  67.868852459% {
     background: no-repeat center/100% url("frames/207.png");
   }
-  69.3333333333% {
+  68.1967213115% {
     background: no-repeat center/100% url("frames/208.png");
   }
-  69.6666666667% {
+  68.5245901639% {
     background: no-repeat center/100% url("frames/209.png");
   }
-  70% {
+  68.8524590164% {
     background: no-repeat center/100% url("frames/210.png");
   }
-  70.3333333333% {
+  69.1803278689% {
     background: no-repeat center/100% url("frames/211.png");
   }
-  70.6666666667% {
+  69.5081967213% {
     background: no-repeat center/100% url("frames/212.png");
   }
-  71% {
+  69.8360655738% {
     background: no-repeat center/100% url("frames/213.png");
   }
-  71.3333333333% {
+  70.1639344262% {
     background: no-repeat center/100% url("frames/214.png");
   }
-  71.6666666667% {
+  70.4918032787% {
     background: no-repeat center/100% url("frames/215.png");
   }
-  72% {
+  70.8196721311% {
     background: no-repeat center/100% url("frames/216.png");
   }
-  72.3333333333% {
+  71.1475409836% {
     background: no-repeat center/100% url("frames/217.png");
   }
-  72.6666666667% {
+  71.4754098361% {
     background: no-repeat center/100% url("frames/218.png");
   }
-  73% {
+  71.8032786885% {
     background: no-repeat center/100% url("frames/219.png");
   }
-  73.3333333333% {
+  72.131147541% {
     background: no-repeat center/100% url("frames/220.png");
   }
-  73.6666666667% {
+  72.4590163934% {
     background: no-repeat center/100% url("frames/221.png");
   }
-  74% {
+  72.7868852459% {
     background: no-repeat center/100% url("frames/222.png");
   }
-  74.3333333333% {
+  73.1147540984% {
     background: no-repeat center/100% url("frames/223.png");
   }
-  74.6666666667% {
+  73.4426229508% {
     background: no-repeat center/100% url("frames/224.png");
   }
-  75% {
+  73.7704918033% {
     background: no-repeat center/100% url("frames/225.png");
   }
-  75.3333333333% {
+  74.0983606557% {
     background: no-repeat center/100% url("frames/226.png");
   }
-  75.6666666667% {
+  74.4262295082% {
     background: no-repeat center/100% url("frames/227.png");
   }
-  76% {
+  74.7540983607% {
     background: no-repeat center/100% url("frames/228.png");
   }
-  76.3333333333% {
+  75.0819672131% {
     background: no-repeat center/100% url("frames/229.png");
   }
-  76.6666666667% {
+  75.4098360656% {
     background: no-repeat center/100% url("frames/230.png");
   }
-  77% {
+  75.737704918% {
     background: no-repeat center/100% url("frames/231.png");
   }
-  77.3333333333% {
+  76.0655737705% {
     background: no-repeat center/100% url("frames/232.png");
   }
-  77.6666666667% {
+  76.393442623% {
     background: no-repeat center/100% url("frames/233.png");
   }
-  78% {
+  76.7213114754% {
     background: no-repeat center/100% url("frames/234.png");
   }
-  78.3333333333% {
+  77.0491803279% {
     background: no-repeat center/100% url("frames/235.png");
   }
-  78.6666666667% {
+  77.3770491803% {
     background: no-repeat center/100% url("frames/236.png");
   }
-  79% {
+  77.7049180328% {
     background: no-repeat center/100% url("frames/237.png");
   }
-  79.3333333333% {
+  78.0327868852% {
     background: no-repeat center/100% url("frames/238.png");
   }
-  79.6666666667% {
+  78.3606557377% {
     background: no-repeat center/100% url("frames/239.png");
   }
-  80% {
+  78.6885245902% {
     background: no-repeat center/100% url("frames/240.png");
   }
-  80.3333333333% {
+  79.0163934426% {
     background: no-repeat center/100% url("frames/241.png");
   }
-  80.6666666667% {
+  79.3442622951% {
     background: no-repeat center/100% url("frames/242.png");
   }
-  81% {
+  79.6721311475% {
     background: no-repeat center/100% url("frames/243.png");
   }
-  81.3333333333% {
+  80% {
     background: no-repeat center/100% url("frames/244.png");
   }
-  81.6666666667% {
+  80.3278688525% {
     background: no-repeat center/100% url("frames/245.png");
   }
-  82% {
+  80.6557377049% {
     background: no-repeat center/100% url("frames/246.png");
   }
-  82.3333333333% {
+  80.9836065574% {
     background: no-repeat center/100% url("frames/247.png");
   }
-  82.6666666667% {
+  81.3114754098% {
     background: no-repeat center/100% url("frames/248.png");
   }
-  83% {
+  81.6393442623% {
     background: no-repeat center/100% url("frames/249.png");
   }
-  83.3333333333% {
+  81.9672131148% {
     background: no-repeat center/100% url("frames/250.png");
   }
-  83.6666666667% {
+  82.2950819672% {
     background: no-repeat center/100% url("frames/251.png");
   }
-  84% {
+  82.6229508197% {
     background: no-repeat center/100% url("frames/252.png");
   }
-  84.3333333333% {
+  82.9508196721% {
     background: no-repeat center/100% url("frames/253.png");
   }
-  84.6666666667% {
+  83.2786885246% {
     background: no-repeat center/100% url("frames/254.png");
   }
-  85% {
+  83.606557377% {
     background: no-repeat center/100% url("frames/255.png");
   }
-  85.3333333333% {
+  83.9344262295% {
     background: no-repeat center/100% url("frames/256.png");
   }
-  85.6666666667% {
+  84.262295082% {
     background: no-repeat center/100% url("frames/257.png");
   }
-  86% {
+  84.5901639344% {
     background: no-repeat center/100% url("frames/258.png");
   }
-  86.3333333333% {
+  84.9180327869% {
     background: no-repeat center/100% url("frames/259.png");
   }
-  86.6666666667% {
+  85.2459016393% {
     background: no-repeat center/100% url("frames/260.png");
   }
-  87% {
+  85.5737704918% {
     background: no-repeat center/100% url("frames/261.png");
   }
-  87.3333333333% {
+  85.9016393443% {
     background: no-repeat center/100% url("frames/262.png");
   }
-  87.6666666667% {
+  86.2295081967% {
     background: no-repeat center/100% url("frames/263.png");
   }
-  88% {
+  86.5573770492% {
     background: no-repeat center/100% url("frames/264.png");
   }
-  88.3333333333% {
+  86.8852459016% {
     background: no-repeat center/100% url("frames/265.png");
   }
-  88.6666666667% {
+  87.2131147541% {
     background: no-repeat center/100% url("frames/266.png");
   }
-  89% {
+  87.5409836066% {
     background: no-repeat center/100% url("frames/267.png");
   }
-  89.3333333333% {
+  87.868852459% {
     background: no-repeat center/100% url("frames/268.png");
   }
-  89.6666666667% {
+  88.1967213115% {
     background: no-repeat center/100% url("frames/269.png");
   }
-  90% {
+  88.5245901639% {
     background: no-repeat center/100% url("frames/270.png");
   }
-  90.3333333333% {
+  88.8524590164% {
     background: no-repeat center/100% url("frames/271.png");
   }
-  90.6666666667% {
+  89.1803278689% {
     background: no-repeat center/100% url("frames/272.png");
   }
-  91% {
+  89.5081967213% {
     background: no-repeat center/100% url("frames/273.png");
   }
-  91.3333333333% {
+  89.8360655738% {
     background: no-repeat center/100% url("frames/274.png");
   }
-  91.6666666667% {
+  90.1639344262% {
     background: no-repeat center/100% url("frames/275.png");
   }
-  92% {
+  90.4918032787% {
     background: no-repeat center/100% url("frames/276.png");
   }
-  92.3333333333% {
+  90.8196721311% {
     background: no-repeat center/100% url("frames/277.png");
   }
-  92.6666666667% {
+  91.1475409836% {
     background: no-repeat center/100% url("frames/278.png");
   }
-  93% {
+  91.4754098361% {
     background: no-repeat center/100% url("frames/279.png");
   }
-  93.3333333333% {
+  91.8032786885% {
     background: no-repeat center/100% url("frames/280.png");
   }
-  93.6666666667% {
+  92.131147541% {
     background: no-repeat center/100% url("frames/281.png");
   }
-  94% {
+  92.4590163934% {
     background: no-repeat center/100% url("frames/282.png");
   }
-  94.3333333333% {
+  92.7868852459% {
     background: no-repeat center/100% url("frames/283.png");
   }
-  94.6666666667% {
+  93.1147540984% {
     background: no-repeat center/100% url("frames/284.png");
   }
-  95% {
+  93.4426229508% {
     background: no-repeat center/100% url("frames/285.png");
   }
-  95.3333333333% {
+  93.7704918033% {
     background: no-repeat center/100% url("frames/286.png");
   }
-  95.6666666667% {
+  94.0983606557% {
     background: no-repeat center/100% url("frames/287.png");
   }
-  96% {
+  94.4262295082% {
     background: no-repeat center/100% url("frames/288.png");
   }
-  96.3333333333% {
+  94.7540983607% {
     background: no-repeat center/100% url("frames/289.png");
   }
-  96.6666666667% {
+  95.0819672131% {
     background: no-repeat center/100% url("frames/290.png");
   }
-  97% {
+  95.4098360656% {
     background: no-repeat center/100% url("frames/291.png");
   }
-  97.3333333333% {
+  95.737704918% {
     background: no-repeat center/100% url("frames/292.png");
   }
-  97.6666666667% {
+  96.0655737705% {
     background: no-repeat center/100% url("frames/293.png");
   }
-  98% {
+  96.393442623% {
     background: no-repeat center/100% url("frames/294.png");
   }
-  98.3333333333% {
+  96.7213114754% {
     background: no-repeat center/100% url("frames/295.png");
   }
-  98.6666666667% {
+  97.0491803279% {
     background: no-repeat center/100% url("frames/296.png");
   }
-  99% {
+  97.3770491803% {
     background: no-repeat center/100% url("frames/297.png");
   }
-  99.3333333333% {
+  97.7049180328% {
     background: no-repeat center/100% url("frames/298.png");
   }
-  99.6666666667% {
+  98.0327868852% {
     background: no-repeat center/100% url("frames/299.png");
+  }
+  98.3606557377% {
+    background: no-repeat center/100% url("frames/300.png");
+  }
+  98.6885245902% {
+    background: no-repeat center/100% url("frames/300.png");
+  }
+  99.0163934426% {
+    background: no-repeat center/100% url("frames/300.png");
+  }
+  99.3442622951% {
+    background: no-repeat center/100% url("frames/300.png");
+  }
+  99.6721311475% {
+    background: no-repeat center/100% url("frames/300.png");
   }
   100% {
     background: no-repeat center/100% url("frames/300.png");
