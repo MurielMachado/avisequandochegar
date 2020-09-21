@@ -10,7 +10,7 @@ body {
   width: 414px;
   height: 370px;
   margin: auto;
-  animation: aviseQuando steps(305) infinite alternate 30s;
+  animation: aviseQuando steps(305) infinite alternate 60s;
   animation-delay: 1s;
   background: no-repeat center/100% url("frames/1.png")
 }
@@ -18,7 +18,7 @@ body {
 #onde::after {
   content: '';
   display: block;
-  animation-delay: 1.1s;
+  animation-delay: 1.2s;
 }
 
 @keyframes aviseQuando {
