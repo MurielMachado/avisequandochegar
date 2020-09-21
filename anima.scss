@@ -11,14 +11,13 @@ body {
   height: 370px;
   margin: auto;
   animation: aviseQuando steps(305) infinite alternate 60s;
-  animation-delay: 1s;
-  background: no-repeat center/100% url("frames/1.png")
+  background: no-repeat center/100% url("frames/1.png");
 }
 
 #onde::after {
   content: '';
   display: block;
-  animation-delay: 1.2s;
+  animation-delay: 2s;
 }
 
 @keyframes aviseQuando {
