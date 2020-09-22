@@ -6,24 +6,25 @@ body {
   display: flex;
 }
 
-#onde, #onde::after {
-  width: 414px;
-  height: 370px;
+//#onde::after,
+#onde {
+  width: 442px;
+  height: 404px;
   margin: auto;
-  animation: aviseQuando steps(305) infinite alternate 60s;
+  animation: aviseQuando steps(335) infinite alternate 30s;
   background: no-repeat center/100% url("frames/1.png");
 }
 
-#onde::after {
-  content: '';
-  display: block;
-  animation-delay: 2s;
-}
+// #onde::after {
+//   content: '';
+//   display: block;
+//   animation-delay: 2s;
+// }
 
 @keyframes aviseQuando {
-  @for $i from 1 through 305 {
-    $s: ($i * 100) / 305 + "%";
-    $page: url("frames/"+min($i,300)+".png");
+  @for $i from 1 through 335 {
+    $s: ($i * 100) / 335 + "%";
+    $page: url("frames/"+min($i, 330)+".png");
 
     #{$s} {
       background: no-repeat center/100% $page;
