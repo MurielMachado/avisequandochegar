@@ -15,7 +15,7 @@ body {
 #onde {
   @include dimensions;
   margin: auto;
-  animation: aviseQuando steps(335) infinite alternate 30s;
+  animation: aviseQuando ease-in-out infinite alternate 30s;
   background: no-repeat center/100% url("frames/1.png");
 }
 
