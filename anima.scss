@@ -11,7 +11,7 @@ body {
   height: 404px;
 }
 
-//#onde::after,
+#onde::after,
 #onde {
   @include dimensions;
   margin: auto;
@@ -19,11 +19,11 @@ body {
   background: no-repeat center/100% url("frames/1.png");
 }
 
-// #onde::after {
-//   content: '';
-//   display: block;
-//   animation-delay: 2s;
-// }
+#onde::after {
+  content: '';
+  display: block;
+  animation-delay: 2s;
+}
 
 @keyframes aviseQuando {
   @for $i from 1 through 335 {

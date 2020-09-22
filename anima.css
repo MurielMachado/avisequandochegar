@@ -6,12 +6,19 @@ body {
   display: flex;
 }
 
+#onde::after,
 #onde {
   width: 442px;
   height: 404px;
   margin: auto;
   animation: aviseQuando steps(335) infinite alternate 30s;
   background: no-repeat center/100% url("frames/1.png");
+}
+
+#onde::after {
+  content: "";
+  display: block;
+  animation-delay: 2s;
 }
 
 @keyframes aviseQuando {
