@@ -1,3 +1,11 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+}
+
 @mixin dimensions {
   width: 442px;
   height: 404px;
@@ -8,37 +16,41 @@ $delay-begin: 2;
 $delay-first: 1;
 $delay-last: 1;
 
-html,
-body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  display: flex;
+@for $i from 1 through $n-frames{
+  #onde img:nth-child(#{$i}) {
+    background: no-repeat center/100% url("frames/"+min($i, 330)+".png");
+  }
 }
 
-$all-pages: '';
-
-@for $i from 1 through ($n-frames - 1) {
-  $all-pages: $all-pages + url("frames/"+$i+".png") + " ";
-}
-$all-pages: $all-pages + url("frames/"+$n-frames+".png");
-
-// #onde::after,
-#onde {
+img {
   @include dimensions;
-  margin: auto;
-  animation: aviseQuando ease-in-out infinite alternate 30s;
-  background: no-repeat center/100% url("frames/1.png");
-  animation-delay: 2s;
 }
 
 
-#onde::before {
-  @include dimensions;
-  content: #{$all-pages};
-  display: block;
-  opacity: 0;
-}
+
+// $all-pages: '';
+
+// @for $i from 1 through ($n-frames - 1) {
+//   $all-pages: $all-pages + url("frames/"+$i+".png") + " ";
+// }
+// $all-pages: $all-pages + url("frames/"+$n-frames+".png");
+
+// // #onde::after,
+// #onde {
+//   @include dimensions;
+//   margin: auto;
+//   animation: aviseQuando ease-in-out infinite alternate 30s;
+//   background: no-repeat center/100% url("frames/1.png");
+//   animation-delay: 2s;
+// }
+
+
+// #onde::before {
+//   @include dimensions;
+//   content: #{$all-pages};
+//   display: block;
+//   opacity: 0;
+// }
 
 
 // #onde::after {
