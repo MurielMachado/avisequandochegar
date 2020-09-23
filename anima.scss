@@ -6,20 +6,29 @@ body {
   display: flex;
 }
 
-//#onde::after,
-#onde {
+@mixin dimensions {
   width: 442px;
   height: 404px;
-  margin: auto;
-  animation: aviseQuando steps(335) infinite alternate 30s;
-  background: no-repeat center/100% url("frames/1.png");
 }
 
-// #onde::after {
-//   content: '';
-//   display: block;
-//   animation-delay: 2s;
-// }
+$n-frames: 330;
+$delay-begin: 2;
+$delay-first: 1;
+$delay-last: 1;
+
+@for $i from 1 through $n-frames{
+  #onde img:nth-child(#{$i}) {
+    background: no-repeat center/100% url("frames/"+min($i, 330)+".png");
+  }
+}
+
+#onde {
+  @include dimensions;
+  margin: auto;
+  animation: aviseQuando ease-in-out infinite alternate 30s;
+  background: no-repeat center/100% url("frames/1.png");
+  animation-delay: 2s;
+}
 
 @keyframes aviseQuando {
   @for $i from 1 through 335 {

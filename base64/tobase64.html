@@ -1,0 +1,31 @@
+<input type="file" onchange="encodeImageFileAsURL(this)" multiple />
+
+<textarea id=O></textarea>
+
+<script>
+
+bin=[]
+
+function readmultifiles(files) {
+  var reader = new FileReader();  
+  function readFile(index) {
+    if( index >= files.length ) return;
+    var file = files[index];
+    reader.onload = function(e) {  
+      // get file content  
+      bin[index] = e.target.result;
+      // do sth with bin
+      readFile(index+1)
+    }
+    reader.readAsDataURL(file);
+  }
+  readFile(0);
+}
+
+function encodeImageFileAsURL(element) {
+  readmultifiles(element.files);
+}
+
+/// htmlstuff = bin.map(im=>`<img src="${im}">`).join`\n`
+
+</script>
