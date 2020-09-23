@@ -22,42 +22,13 @@ $delay-last: 1;
   }
 }
 
-img {
+#onde {
   @include dimensions;
+  margin: auto;
+  animation: aviseQuando ease-in-out infinite alternate 30s;
+  background: no-repeat center/100% url("frames/1.png");
+  animation-delay: 2s;
 }
-
-
-
-// $all-pages: '';
-
-// @for $i from 1 through ($n-frames - 1) {
-//   $all-pages: $all-pages + url("frames/"+$i+".png") + " ";
-// }
-// $all-pages: $all-pages + url("frames/"+$n-frames+".png");
-
-// // #onde::after,
-// #onde {
-//   @include dimensions;
-//   margin: auto;
-//   animation: aviseQuando ease-in-out infinite alternate 30s;
-//   background: no-repeat center/100% url("frames/1.png");
-//   animation-delay: 2s;
-// }
-
-
-// #onde::before {
-//   @include dimensions;
-//   content: #{$all-pages};
-//   display: block;
-//   opacity: 0;
-// }
-
-
-// #onde::after {
-//   content: '';
-//   display: block;
-//   animation-delay: 2s;
-// }
 
 @keyframes aviseQuando {
   @for $i from 1 through 335 {

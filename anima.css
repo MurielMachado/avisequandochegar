@@ -1326,9 +1326,13 @@ body {
   background: no-repeat center/100% url("frames/330.png");
 }
 
-img {
+#onde {
   width: 442px;
   height: 404px;
+  margin: auto;
+  animation: aviseQuando ease-in-out infinite alternate 30s;
+  background: no-repeat center/100% url("frames/1.png");
+  animation-delay: 2s;
 }
 
 @keyframes aviseQuando {
