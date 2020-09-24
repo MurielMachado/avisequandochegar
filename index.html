@@ -9,29 +9,28 @@ html,body {
   width: 442px;
   height: 404px;
   margin: auto;
-  background: url("sheet.png"), url("1.png");
-  background-repeat: no-repeat;
+  background: no-repeat url("sheet.png"), url("1.png");
 }
 </style>
 <div id=onde></div>
 <script>
 w=442,h=404
+m=22,n=15
 r=c=b=dx=0
 document.body.onload=_=>{
   setTimeout(_=>{
     setInterval(_=>{
-      if(++r >= 22){
+      if(++r >= m){
         r=0
-        if(++c >= 15){
+        if(++c >= n){
           c=0
           b=!b
         }
-        dx=b?c-14:-c
+        dx=b?c-n+1:-c
         onde.style.backgroundPositionX=dx*442+"px"
       }
-      dy=b?r-21:-r
+      dy=b?r-m+1:-r
       onde.style.backgroundPositionY=dy*402+"px"
-      // console.log([b,r,c,dx,dy,dx*442,dy*402])
     },1000/60)
   },2000)
 }
