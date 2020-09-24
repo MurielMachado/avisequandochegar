@@ -14,12 +14,15 @@ html,body {
 </style>
 <div id=onde></div>
 <script>
-w=442,h=404
+w=442,h=402
 m=22,n=15
-r=c=b=dx=0
+r=c=b=a=0
 document.body.onload=_=>{
   setTimeout(_=>{
     setInterval(_=>{
+      if((r==0&&c==0)||(r==m-1&&c==n-1))
+        if(++a%100)
+          return;
       if(++r >= m){
         r=0
         if(++c >= n){
@@ -27,11 +30,11 @@ document.body.onload=_=>{
           b=!b
         }
         dx=b?c-n+1:-c
-        onde.style.backgroundPositionX=dx*442+"px"
+        onde.style.backgroundPositionX=dx*w+"px"
       }
       dy=b?r-m+1:-r
-      onde.style.backgroundPositionY=dy*402+"px"
+      onde.style.backgroundPositionY=dy*h+"px"
     },1000/60)
-  },2000)
+  },1000)
 }
 </script>
