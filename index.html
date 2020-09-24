@@ -1,2 +1,31 @@
-<link rel="stylesheet" type="text/css" href="anima.css">
+<style>
+html,body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+}
+#onde {
+  width: 442px;
+  height: 404px;
+  margin: auto;
+  background: url("sheet.png"), url("1.png");
+}
+</style>
 <div id=onde></div>
+<script>
+w=442,h=404
+r=c=0
+document.body.onload=_=>{
+  setInterval(_=>{
+    if(++r >= 22){
+      r=0
+      if(++c >= 15){
+        c=0
+      }
+      onde.style.backgroundPositionX=-c*442+"px"
+    }
+    onde.style.backgroundPositionY=-r*402+"px"
+  },100)
+}
+</script>
