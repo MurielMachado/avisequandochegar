@@ -21,7 +21,7 @@ document.body.onload=_=>{
   setTimeout(_=>{
     setInterval(_=>{
       if((r==0&&c==0)||(r==m-1&&c==n-1))
-        if(++a%100)
+        if(++a%30)
           return;
       if(++r >= m){
         r=0
@@ -34,7 +34,7 @@ document.body.onload=_=>{
       }
       dy=b?r-m+1:-r
       onde.style.backgroundPositionY=dy*h+"px"
-    },1000/60)
+    },1000/15)
   },1000)
 }
 </script>
