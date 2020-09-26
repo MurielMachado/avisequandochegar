@@ -6,16 +6,16 @@ html,body {
   display: flex;
 }
 #onde {
-  width: 442px;
-  height: 404px;
+  width: 422px;
+  height: 372px;
   margin: auto;
   background: no-repeat url("sheet.png"), url("1.png");
 }
 </style>
 <div id=onde></div>
 <script>
-w=442,h=402
-m=22,n=15
+w=844/2,h=744/2
+m=26,n=13
 r=c=b=a=0
 document.body.onload=_=>{
   setTimeout(_=>{
@@ -23,17 +23,17 @@ document.body.onload=_=>{
       if((r==0&&c==0)||(r==m-1&&c==n-1))
         if(++a%30)
           return;
-      if(++r >= m){
-        r=0
-        if(++c >= n){
-          c=0
+      if(++c >= n){
+        c=0
+        if(++r >= m){
+          r=0
           b=!b
         }
-        dx=b?c-n+1:-c
-        onde.style.backgroundPositionX=dx*w+"px"
+        dy=b?r-m+1:-r
+        onde.style.backgroundPositionY=dy*h+"px"
       }
-      dy=b?r-m+1:-r
-      onde.style.backgroundPositionY=dy*h+"px"
+      dx=b?c-n+1:-c
+      onde.style.backgroundPositionX=dx*w+"px"
     },1000/15)
   },1000)
 }
