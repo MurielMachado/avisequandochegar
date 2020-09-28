@@ -5,12 +5,13 @@ html,body {
   width: 100%;
   margin: 0;
   display: flex;
-  font-family: 'oldstyle_hplhsitalic', Arial, sans-serif;
+  font-family: 'oldstyle_hplhsitalic';
 }
 #onde {
   width: 422px;
   height: 372px;
   background: no-repeat url("sheet.png"), url("1.png");
+  transform: scale(.5);
 }
 div {
   margin: auto;
@@ -19,17 +20,18 @@ div {
 p {
   font-size: 18pt;
   font-style: normal;
+  margin: 0;
 }
 </style>
 <div>
-<p>Avise quando chegar</p>
-<br/>
-<br/>
-<br/>
-<div id=onde></div>
-<br/>
-<br/>
-<p>áÁàÀãÃçÇéÉêÊíÍóÓôÔ</p>
+  <div>
+    <p>Avise quando chegar</p>
+  </div>
+  <div id=onde>
+  </div>
+  <div>
+    
+  </div>
 </div>
 <script>
 w=844/2,h=744/2
