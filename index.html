@@ -24,6 +24,11 @@ p,a {
   margin: 0;
   color: black;
   text-decoration: none;
+  animation: fadein cubic-bezier(1, 0, 0.8, 1) 3s;
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 #sobre {
   font-size: 9pt;
@@ -62,6 +67,6 @@ document.body.onload=_=>{
       dx=b?c-n+1:-c
       onde.style.backgroundPositionX=dx*w+"px"
     },1000/15)
-  },1000)
+  },4000)
 }
 </script>
