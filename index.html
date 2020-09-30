@@ -24,7 +24,7 @@ p,a {
   margin: 0;
   color: black;
   text-decoration: none;
-  animation: fadein cubic-bezier(1, 0, 0.8, 1) 3s;
+  animation: fadein cubic-bezier(1, 0, 0.8, 1) 4s;
 }
 @keyframes fadein {
   from { opacity: 0; }
@@ -33,6 +33,7 @@ p,a {
 #sobre {
   font-size: 9pt;
   font-family: 'oldstyle_hplhsregular';
+  animation: fadein cubic-bezier(1, 0, 0.8, 1) 8s;
 }
 </style>
 <div>
@@ -67,6 +68,6 @@ document.body.onload=_=>{
       dx=b?c-n+1:-c
       onde.style.backgroundPositionX=dx*w+"px"
     },1000/15)
-  },4000)
+  },5000)
 }
 </script>
