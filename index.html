@@ -1,4 +1,3 @@
-<!-- <meta name="viewport" content="width=device-width, initial-scale=0.8"> -->
 <meta name="viewport" content="width=device-width, initial-scale=0.85, maximum-scale=3.0, minimum-scale=0.85">
 <link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" charset="utf-8" />
 <style>
@@ -7,7 +6,7 @@ html,body {
   width: 100%;
   margin: 0;
   display: flex;
-  font-family: 'oldstyle_hplhsitalic';
+  font-family: 'oldstyle_hplhsitalic', serif;
 }
 #onde {
   min-width: 422px;
@@ -19,10 +18,16 @@ div {
   margin: auto;
   text-align: center;
 }
-p {
+p,a {
   font-size: 18pt;
   font-style: normal;
   margin: 0;
+  color: black;
+  text-decoration: none;
+}
+#sobre {
+  font-size: 9pt;
+  font-family: 'oldstyle_hplhsregular';
 }
 </style>
 <div>
@@ -30,6 +35,9 @@ p {
     <p>Avise quando chegar</p>
   </div>
   <div id=onde>
+  </div>
+  <div>
+    <a id=sobre href="index.html">sobre</a>
   </div>
 </div>
 <script>
