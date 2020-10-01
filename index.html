@@ -10,43 +10,35 @@ html,body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  text-align: center;
-  justify-content: center;
   font-family: 'oldstyle_hplhsitalic', serif;
 }
 #onde {
-  width: 422px;
-  height: 372px;
+  min-width: 422px;
+  min-height: 372px;
   background: no-repeat url("sheet.png"), url("1.png");
   transform: scale(.5);
 }
 div {
-  margin: auto;
+  margin: 0 auto;
 }
-p,a {
+h1,a {
   font-size: 18pt;
-  font-style: normal;
-  margin: auto;
+  min-height: 18pt;
+  font-weight: normal;
+  margin: auto auto 0 auto;
   color: black;
   text-decoration: none;
-  /* animation: fadein cubic-bezier(1, 0, 0.8, 1) 4s; */
 }
-@keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-#sobre {
-  margin: auto;
-  font-size: 9pt;
-  font-family: 'oldstyle_hplhsregular';
-  /* animation: fadein cubic-bezier(1, 0, 0.8, 1) 8s; */
+a {
+  font-size: 13pt;
+  margin: 0 auto auto auto;
 }
 </style>
-<p>Avise quando chegar</p>
+<h1>Avise quando chegar</h1>
 <div id=onde></div>
-<a id=sobre href="index.html">sobre</a>
+<a id=sobre href="index.html">...</a>
 <script>
-w=844/2,h=744/2
+w=422,h=372
 m=26,n=13
 r=c=b=a=0
 document.body.onload=_=>{
@@ -67,6 +59,6 @@ document.body.onload=_=>{
       dx=b?c-n+1:-c
       onde.style.backgroundPositionX=dx*w+"px"
     },1000/15)
-  },5000)
+  },2000)
 }
 </script>
