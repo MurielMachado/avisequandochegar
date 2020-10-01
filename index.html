@@ -1,51 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=0.85, maximum-scale=3.0, minimum-scale=0.85">
-<link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="fonts/stylesheet.css"/>
+<title>Avise quando chegar</title>
 <style>
 html,body {
   height: 100%;
-  width: 100%;
   margin: 0;
   display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
   font-family: 'oldstyle_hplhsitalic', serif;
 }
 #onde {
-  min-width: 422px;
-  min-height: 372px;
+  width: 422px;
+  height: 372px;
   background: no-repeat url("sheet.png"), url("1.png");
   transform: scale(.5);
 }
 div {
   margin: auto;
-  text-align: center;
 }
 p,a {
   font-size: 18pt;
   font-style: normal;
-  margin: 0;
+  margin: auto;
   color: black;
   text-decoration: none;
-  animation: fadein cubic-bezier(1, 0, 0.8, 1) 4s;
+  /* animation: fadein cubic-bezier(1, 0, 0.8, 1) 4s; */
 }
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
 }
 #sobre {
+  margin: auto;
   font-size: 9pt;
   font-family: 'oldstyle_hplhsregular';
-  animation: fadein cubic-bezier(1, 0, 0.8, 1) 8s;
+  /* animation: fadein cubic-bezier(1, 0, 0.8, 1) 8s; */
 }
 </style>
-<div>
-  <div>
-    <p>Avise quando chegar</p>
-  </div>
-  <div id=onde>
-  </div>
-  <div>
-    <a id=sobre href="index.html">sobre</a>
-  </div>
-</div>
+<p>Avise quando chegar</p>
+<div id=onde></div>
+<a id=sobre href="index.html">sobre</a>
 <script>
 w=844/2,h=744/2
 m=26,n=13
